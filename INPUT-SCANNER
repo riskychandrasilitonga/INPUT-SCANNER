@@ -1,0 +1,32 @@
+package Latihan_java9;
+import java.util.Scanner;
+
+/**
+ * Nama : Risky Ariadi Chandra.S
+ * NIM : 11950111737
+ */
+
+public class Latihan_java9{
+    public static void main ( String[] args){
+        Scanner input = new Scanner (System.in);
+        int sisi;
+        int volume;
+        int keliling;
+        int luas;
+        
+        System.out.println(" Menghitung Rumus Kubus");
+        
+        System.out.print("Silahkan Masukan Nilai Kubus =");
+        sisi = input.nextInt();//input sisi kubus
+        
+        volume = sisi*sisi*sisi;
+        keliling = 12*sisi;
+        luas = 6*sisi*sisi;
+        
+        System.out.println("Volume Kubus :" + volume);
+        System.out.println("Keliling Kubus :" + keliling);
+        System.out.println("Luas Kubus :" + luas);
+        
+        
+    }
+}
